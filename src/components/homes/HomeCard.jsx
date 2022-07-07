@@ -47,7 +47,8 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
             </button> */}
           </div>
           <div className='palyButton row'>
-            <Link to={`/singlepage/${id}`}>
+            <Link  to={`/singlepage/${id}`} target="_blank">
+            
               <button>
                 <div className='img'>
                   <img src='./images/play-button.png' alt='' />
