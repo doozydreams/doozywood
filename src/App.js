@@ -13,9 +13,9 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path='/' component={HomePage} />
-          <Route path='/singlepage/:id' component={SinglePage} exact />
-          <Route path='/future' component={FuturePage} exact />
+          <Route exact path='/doozywood/' component={HomePage} />
+          <Route path='/doozywood/singlepage/:id' component={SinglePage} exact />
+          <Route path='/doozywood/future' component={FuturePage} exact />
         </Switch>
         <Footer />
       </Router>
